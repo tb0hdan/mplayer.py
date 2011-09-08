@@ -23,7 +23,7 @@ STDOUT -- subprocess.STDOUT, provided here for convenience
 """
 
 __version__ = '0.7.0'
-__author__ = 'Darwin M. Bautista <djclue917@gmail.com>'
+__author__ = 'Darwin M. Bautista <daruuin@gmail.com>'
 __all__ = [
     'PIPE',
     'STDOUT',

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2008-2011  Darwin M. Bautista <djclue917@gmail.com>
+# Copyright (C) 2008-2011  Darwin M. Bautista <daruuin@gmail.com>
 #
 # This file is part of mplayer.py.
 #
