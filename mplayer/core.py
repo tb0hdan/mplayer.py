@@ -86,7 +86,7 @@ class Player(object):
     _base_args = ('-slave', '-idle', '-really-quiet', '-msglevel', 'global=4',
                   '-input', 'nodefault-bindings', '-noconfig', 'all')
     cmd_prefix = misc.CmdPrefix.PAUSING_KEEP_FORCE
-    exec_path = 'mplayer'
+    exec_path = 'mplayer' if not subprocess.mswindows else 'mplayer.exe'
     version = None
 
     def __init__(self, args=(), stdout=subprocess.PIPE, stderr=None, autospawn=True):
