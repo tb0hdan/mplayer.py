@@ -10,7 +10,7 @@ setup(
     version=__version__,
     description='Lightweight and dynamic MPlayer wrapper with a Pythonic API',
     author='Darwin M. Bautista',
-    author_email='djclue917@gmail.com',
+    author_email='daruuin@gmail.com',
     url='http://code.google.com/p/python-mplayer/',
     packages=['mplayer'],
     classifiers=[
