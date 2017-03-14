@@ -84,7 +84,7 @@ class Player(object):
     """
 
     _base_args = ('-slave', '-idle', '-really-quiet', '-msglevel', 'global=4',
-                  '-input', 'nodefault-bindings', '-noconfig', 'all', '-nolirc')
+                  '-input', 'nodefault-bindings', '-nolirc')
     cmd_prefix = misc.CmdPrefix.PAUSING_KEEP_FORCE
     exec_path = 'mplayer'
     version = None
