@@ -318,7 +318,7 @@ class Player(object):
         args = [self.exec_path]
         args.extend(self._args)
         try:
-            is_windows = getattr(subprocess.mswindows)
+            is_windows = getattr(subprocess, 'mswindows')
         except AttributeError:  # subprocess32 or newer Python
             is_windows = subprocess._mswindows
         # Start the MPlayer process (unbuffered)
