@@ -142,7 +142,7 @@ class Player(object):
             args = shlex.split(args)
         except AttributeError:
             # Force all args to string
-            args = map(str, args)
+            args = list(map(str, args))
         self._args = self._base_args + tuple(args)
 
     def _propget(self, pname, ptype):
@@ -436,6 +436,6 @@ if __name__ == '__main__':
     player.stderr.connect(error)
     # block execution
     try:
-        raw_input()
-    except NameError: # raw_input() was renamed to input() in Python 3
         input()
+    except NameError: # raw_input() was renamed to input() in Python 3
+        eval(input())
